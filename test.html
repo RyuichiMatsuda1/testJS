@@ -1,0 +1,16 @@
+<head>
+    <!-- <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        function add() {
+            $('#favorite').append('<p>回答：<input type="text"></p>');
+        }
+    </script>
+    </head>
+    <body>
+    好きな食べ物
+    <div id="favorite">
+    <input type="button" onclick="add()" value="入力欄を追加">
+    <p>回答：<input type="text"></p>
+    </div>
+    </body>
